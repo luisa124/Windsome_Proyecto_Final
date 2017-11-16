@@ -19,26 +19,124 @@ header {
         }
         
     }
+    nav {
+        margin: 0;
+        border: 0;
+    }
 }
 
 //SECTION ----------- HOME ----------- ESTILO ---------- DE -------- CARRUSEL
 #my_home {
-    .myCarousel {
-        background-color: rgba(0, 0, 0, 0.39);
-        height: 500px;
-        width: 100%;
-        .item1 {
-            
+    color: white;
+    .jumbotron {
+        .img1 {
+            background-image: url(../assets/img/laptop-2557574_1920-570x380.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 700px;
+            width: 100%;
+            .fondo {
+                background-color: rgba(0, 0, 0, 0.39);
+                height: 640px;
+                width: 100%;
+            }
         }
-        .item2{
-            
+        .img2{
+            background-image: url(../assets/img/laptop-2558665_1920-570x380.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 700px;
+            width: 100%;
+            .fondo {
+                background-color: rgba(0, 0, 0, 0.39);
+                height: 640px;
+                width: 100%;
+            }
         }
-        .item3{
-            
+        .img3{
+            background-image: url(../assets/img/laptop-2592785_640-570x380.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 700px;
+            width: 100%;
+            .fondo {
+                background-color: rgba(0, 0, 0, 0.39);
+                height: 640px;
+                width: 100%;
+            }
         }
     }
     
 }
 
+//SECTION ------------ ABOUT US ----------- ESTILO ---------- DE --------- PORCENTAJES
+#aboutUs {
+    width: 100%;
+    height: 645px;
+}
 
+
+
+//SECTION ------------------------ SERVICES --------------------- WELCOME TO WINSOME
+#services {
+    background-image: url(https://i.pinimg.com/originals/c4/42/48/c44248eb5a972ba597b92aa45bbd62ac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 645px;
+    width: 100%;
+    .fondo {
+        background-color: rgba(0, 0, 0, 0.39);
+        height: 640px;
+        width: 100%;
+    }
+}
+
+
+
+
+//contacto
+
+.parallax4{
+    background-image:url(https://assets.ynap-content.com/winsome-1480337162820.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 660px;
+    width: 100%;
+    .fondo {
+        background-color: rgba(0, 0, 0, 0.39);
+        height: 660px;
+        width: 100%;
+    } 
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc; 
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical;
+        font-family:"Baloo Bhaijaan";
+    }
+
+    //ESTILO ------------- DEL ----------- BOTTON
+    input[type=submit] {
+        background-color: #FF8C00;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: "Baloo Bhaijaan";
+        font-size: 25px;
+    }
+
+    //HOVER ------------ DEL ------------- BOTTON
+    input[type=submit]:hover {
+        background-color: #FF4500;
+    }
+
+}
 
