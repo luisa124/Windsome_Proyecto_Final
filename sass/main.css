@@ -27,7 +27,7 @@ header nav {
     height: 700px;
     width: 100%; }
     #my_home .jumbotron .img1 .fondo {
-      background-color: rgba(0, 0, 0, 0.39);
+      background-color: rgba(0, 0, 0, 0.6);
       height: 640px;
       width: 100%; }
   #my_home .jumbotron .img2 {
@@ -37,7 +37,7 @@ header nav {
     height: 700px;
     width: 100%; }
     #my_home .jumbotron .img2 .fondo {
-      background-color: rgba(0, 0, 0, 0.39);
+      background-color: rgba(0, 0, 0, 0.6);
       height: 640px;
       width: 100%; }
   #my_home .jumbotron .img3 {
@@ -47,7 +47,7 @@ header nav {
     height: 700px;
     width: 100%; }
     #my_home .jumbotron .img3 .fondo {
-      background-color: rgba(0, 0, 0, 0.39);
+      background-color: rgba(0, 0, 0, 0.6);
       height: 640px;
       width: 100%; }
 
@@ -60,44 +60,77 @@ header nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 645px;
+  height: 400px;
   width: 100%; }
   #services .fondo {
-    background-color: rgba(0, 0, 0, 0.39);
-    height: 640px;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 400px;
     width: 100%; }
+    #services .fondo .text h1 {
+      margin-top: 8%;
+      color: #fff; }
+    #services .fondo .text p {
+      margin-left: 15%;
+      color: #fff; }
+    #services .fondo .text .botones .sm {
+      width: 60%;
+      height: 50px; }
+    #services .fondo .text .botones .cta {
+      margin-top: 10%;
+      background-color: #ff9d00;
+      color: #fff;
+      transition: .2s ease; }
+      #services .fondo .text .botones .cta:hover {
+        background-color: transparent;
+        color: #ff9d00;
+        border: 1px solid #ff9d00;
+        transition: .2s ease; }
+    #services .fondo .text .botones .ghost {
+      background-color: transparent;
+      border: 1px solid #ff9d00;
+      color: #ff9d00;
+      transition: .2s ease; }
+      #services .fondo .text .botones .ghost:hover {
+        background-color: #ff9d00;
+        color: #fff;
+        transition: .2s ease; }
+
+#blog {
+  background-color: #ff9d00; }
 
 .parallax4 {
   background-image: url(https://assets.ynap-content.com/winsome-1480337162820.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 660px;
+  height: 700px;
   width: 100%; }
   .parallax4 .fondo {
-    background-color: rgba(0, 0, 0, 0.39);
-    height: 660px;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 700px;
     width: 100%; }
+  .parallax4 .title {
+    color: #fff; }
   .parallax4 input[type=text], .parallax4 select, .parallax4 textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
     font-family: "Baloo Bhaijaan"; }
-  .parallax4 input[type=submit] {
-    background-color: #FF8C00;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: "Baloo Bhaijaan";
-    font-size: 25px; }
-  .parallax4 input[type=submit]:hover {
-    background-color: #FF4500; }
+  .parallax4 .ghost {
+    width: 15%;
+    height: 50px;
+    margin-left: 10%;
+    background-color: transparent;
+    border: 1px solid #ff9d00;
+    color: #ff9d00;
+    transition: .2s ease; }
+    .parallax4 .ghost:hover {
+      background-color: #ff9d00;
+      color: #fff;
+      transition: .2s ease; }
 
 /*# sourceMappingURL=main.css.map */
