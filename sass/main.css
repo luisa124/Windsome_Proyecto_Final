@@ -55,6 +55,30 @@ header nav {
   width: 100%;
   height: 645px; }
 
+#ourTeam .services {
+  padding: 80px 20px 40px h2;
+    padding-margin: 0 0 50px;
+    padding-font-weight: normal; }
+  #ourTeam .services .item {
+    float: left;
+    width: 33.3333%;
+    margin-bottom: 20px; }
+  #ourTeam .services .item span {
+    color: #1abc9c;
+    float: left;
+    width: 10%;
+    margin-right: 16%;
+    margin-top: 10px; }
+  #ourTeam .services .item .info {
+    float: left;
+    width: 70%; }
+  #ourTeam .services .item .info h3 {
+    color: #585353;
+    margin-bottom: 10px; }
+  #ourTeam .services .item .info p {
+    margin-top: 0;
+    color: #888; }
+
 #services {
   background-image: url(https://i.pinimg.com/originals/c4/42/48/c44248eb5a972ba597b92aa45bbd62ac.jpg);
   background-repeat: no-repeat;
@@ -70,7 +94,6 @@ header nav {
       margin-top: 8%;
       color: #fff; }
     #services .fondo .text p {
-      margin-left: 15%;
       color: #fff; }
     #services .fondo .text .botones .sm {
       width: 60%;
@@ -123,7 +146,6 @@ header nav {
   .parallax4 .ghost {
     width: 15%;
     height: 50px;
-    margin-left: 10%;
     background-color: transparent;
     border: 1px solid #ff9d00;
     color: #ff9d00;
@@ -132,5 +154,24 @@ header nav {
       background-color: #ff9d00;
       color: #fff;
       transition: .2s ease; }
+
+/*=================section de mapa===============*/
+.input-mapa {
+  margin-top: 2%; }
+  .input-mapa #map {
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 200px;
+    border: 2px solid black; }
+  .input-mapa p {
+    color: #fff; }
+
+#section-footer {
+  background-color: darkgrey;
+  height: 500px;
+  width: 100%; }
+
+.footer {
+  background-color: #000000; }
 
 /*# sourceMappingURL=main.css.map */
