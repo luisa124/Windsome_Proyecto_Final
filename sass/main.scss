@@ -200,6 +200,11 @@ header {
         resize: vertical;
         font-family:"Baloo Bhaijaan";
     }
+    label {
+        p{
+        color: $white;
+        }
+    }
 
     //ESTILO ------------- DEL ----------- BOTTON
    .ghost {
