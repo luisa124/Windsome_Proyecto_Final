@@ -1,5 +1,5 @@
-$primary: #ff9d00;
-$secondary: #f3f3f3;
+$primary: #fc9100;
+$secondary: #989898;
 $white: #fff;
 $black: #000000;
 body {
@@ -75,13 +75,90 @@ header {
 
 //SECTION ------------ ABOUT US ----------- ESTILO ---------- DE --------- PORCENTAJES
 #aboutUs {
-    width: 100%;
-    height: 645px;
+    .textos {
+        p {
+            font-size: 16px;
+            color: $secondary;
+        }
+    }
+    img{
+        padding: 5px; 
+        width: 250px;
+        height: 200px;
+        vertical-align:top;
+    }
+    .progress {
+        width: 100%;
+        height: 10px;
+    }
 }
 
 
 
-#ourTeam {
+//SECTION ------------------------ SERVICES --------------------- WELCOME TO WINSOME
+#winsome {
+    background-image: url(https://resizer.otstatic.com/v1/xRnCwpu7Irq%2Fsp8EjLAjTA/24970313);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    .fondo {
+        background-color: rgba(0, 0, 0, 0.60);
+        height: 400px;
+        width: 100%;
+        .text {
+            .textos {
+                h2 {
+                    margin-top: 10%;
+                    color: $white;
+                }
+                .linia {
+                    margin-top: 80%;
+                    background-color: #fc9100;
+                }
+            }
+            p {
+                color: $white;
+            }
+            .botones {
+                    .sm { 
+                        width: 10%;
+                        height: 50px;
+                    }
+                    .cta {
+                        margin-top: 10%;
+                        background-color: $primary;
+                        color: $white;
+                        transition: .2s ease;
+                        &:hover {
+                            background-color: transparent;
+                            color: $primary;
+                            border: 1px solid $primary;
+                            transition: .2s ease;
+                        }
+                    }
+                
+                .ghost {
+                    background-color: transparent;
+                    border: 1px solid $primary;
+                    color: $primary;
+                    transition: .2s ease;
+                    &:hover {
+                       background-color: $primary;
+                       color: $white;
+                       transition: .2s ease;
+                   }
+                }
+            }
+        }
+    }
+}
+
+
+
+// SECTION ------------------ OURTEAM
+#services {
     .services {
     padding:  80px 20px 40px
         h2 {
@@ -114,60 +191,11 @@ header {
         }
     }
 }
+//SECCIÓN ------------ DE -------------PORTAFOLIO 
 
-//SECTION ------------------------ SERVICES --------------------- WELCOME TO WINSOME
-#services {
-    background-image: url(https://i.pinimg.com/originals/c4/42/48/c44248eb5a972ba597b92aa45bbd62ac.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 400px;
-    width: 100%;
-    .fondo {
-        background-color: rgba(0, 0, 0, 0.60);
-        height: 400px;
-        width: 100%;
-        .text {
-            h1 {
-                margin-top: 8%;
-                color: $white;
-            }
-            p {
-                color: $white;
-            }
-            .botones {
-                    .sm { 
-                        width: 60%;
-                        height: 50px;
-                    }
-                    .cta {
-                        margin-top: 10%;
-                        background-color: $primary;
-                        color: $white;
-                        transition: .2s ease;
-                        &:hover {
-                            background-color: transparent;
-                            color: $primary;
-                            border: 1px solid $primary;
-                            transition: .2s ease;
-                        }
-                    }
-                
-                .ghost {
-                    background-color: transparent;
-                    border: 1px solid $primary;
-                    color: $primary;
-                    transition: .2s ease;
-                    &:hover {
-                       background-color: $primary;
-                       color: $white;
-                       transition: .2s ease;
-                   }
-                }
-            }
-        }
-    }
-}
+
+
+
 
 //-------SECCION ------------- DE ------------- BLOG ------------- CARRUSEL
 #blog {
