@@ -37,7 +37,7 @@ header {
             background-image: url(../assets/img/laptop-2557574_1920-570x380.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            height: 700px;
+            height: 100px;
             width: 100%;
             .fondo {
                 background-color: rgba(0, 0, 0, 0.60);
@@ -109,14 +109,15 @@ header {
         width: 100%;
         .text {
             .textos {
-                h2 {
+                margin-top: 5%;
+                /* h2 {
                     margin-top: 10%;
                     color: $white;
                 }
                 .linia {
-                    margin-top: 80%;
+                    
                     background-color: #fc9100;
-                }
+                } */
             }
             p {
                 color: $white;
@@ -127,7 +128,7 @@ header {
                         height: 50px;
                     }
                     .cta {
-                        margin-top: 10%;
+                       
                         background-color: $primary;
                         color: $white;
                         transition: .2s ease;
@@ -155,15 +156,14 @@ header {
     }
 }
 
-
-
-// SECTION ------------------ OURTEAM
+// SECTION ------------------ SERVICES
 #services {
+    height: 600px;
+    width: 100%;
     .services {
-    padding:  80px 20px 40px
+        margin-top: 2%;
         h2 {
-            margin: 0 0 50px;
-            font-weight: normal
+            font-size: 25px;
         }
         .item {
             float: left;
@@ -189,8 +189,50 @@ header {
             margin-top: 0;
             color: #888
         }
+        span {
+            background-color: #ff9a25;
+            height: 40px;
+            width: 12%;
+            border-radius: 50px 50px;
+            .iconos {
+                color: $white;
+            }
+        }
+        .textos {
+            
+        }
     }
 }
+
+//SECTION -------------- NUMEROS --------- Y --------- ICONOS
+#numeros {
+    background-image: url(https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=676330-847__1&recipeName=350);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    width: 100%;
+     .fondo {
+        background-color: rgba(0, 0, 0, 0.60);
+        height: 300px;
+        width: 100%;
+        .img_number {
+            margin-top: 5%;
+            color: $white;
+            .glyphicon {
+              
+            }
+        }
+    }
+}
+
+//OUR -------------------------- TEAM
+#ourTeam {
+    background-color: $white;
+    height: 640px;
+    width: 100%;
+}
+
 //SECCIÓN ------------ DE -------------PORTAFOLIO 
 
 
@@ -202,7 +244,7 @@ header {
     background-color: $primary;
 }
 
-//-------------- ESTILO ------------ DE -----------contacto
+//-------------- ESTILO ------------ DE -----------CONTACTOS
 .parallax4{
     background-image: url(https://assets.ynap-content.com/winsome-1480337162820.jpeg);
     background-repeat: no-repeat;
@@ -268,13 +310,15 @@ header {
 
 //------ SECCIÓN -------------------- FOOTER ---
 #section-footer {
-    background-color: darkgrey;
+    background-color: #525252;
     height: 500px;
     width: 100%;
 }
 
 
 // ---------------- FOOTER ----
-.footer {
-    background-color: $black;
+#footer {
+    .mi_texto {
+        background-color: $black;
+    }
 }
