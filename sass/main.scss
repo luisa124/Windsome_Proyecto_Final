@@ -310,7 +310,8 @@ header {
 
 //------ SECCIÓN -------------------- FOOTER ---
 #section-footer {
-    background-color: #525252;
+    background-color: #1f1f1f;
+    color: $white;
     height: 500px;
     width: 100%;
 }
@@ -318,7 +319,13 @@ header {
 
 // ---------------- FOOTER ----
 #footer {
+    background-color: $black;
+    height: 80px;
+    width: 100%;
+    color: $white;
     .mi_texto {
-        background-color: $black;
+        p{
+            margin-top: 5%;
+        }
     }
 }
